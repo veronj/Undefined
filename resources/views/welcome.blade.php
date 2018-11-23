@@ -9,7 +9,8 @@
             <div class="col-md-4">
             <div class="thumbnail">
                 <div class="caption">
-                <h3>{{ $sector->name }}</h3>
+                <h3>{{ $sector->name }}</h3> 
+                <h3>{{ $sector->img }}</h3>
                 
                 </div>
             </div>
