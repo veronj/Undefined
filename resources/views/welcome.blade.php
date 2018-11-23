@@ -11,6 +11,7 @@
                 <div class="caption">
                 <h3>{{ $sector->name }}</h3> 
                 <h3>{{ $sector->img }}</h3>
+                <img src="/img/{{ $sector->img }}.png">
                 
                 </div>
             </div>
