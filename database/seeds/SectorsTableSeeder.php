@@ -18,7 +18,7 @@ class SectorsTableSeeder extends Seeder
             'name' => 'Aloha',
             'x_position' => '1',
             'y_position' => '1',
-            'img' => '1',
+            'img' => '4',
         ]);
         $sector->save();
         
@@ -54,7 +54,7 @@ class SectorsTableSeeder extends Seeder
             'name' => 'Effap',
             'x_position' => '5',
             'y_position' => '1',
-            'img' => '1',
+            'img' => '2',
             ]);
         $sector->save();
 
@@ -116,7 +116,7 @@ class SectorsTableSeeder extends Seeder
             'name' => 'Greda',
             'x_position' => '2',
             'y_position' => '3',
-            'img' => '1',
+            'img' => '4',
             ]);
         $sector->save();
 
@@ -125,7 +125,7 @@ class SectorsTableSeeder extends Seeder
             'name' => 'Greda',
             'x_position' => '3',
             'y_position' => '3',
-            'img' => '1',
+            'img' => '3',
             ]);
         $sector->save();
 
@@ -134,7 +134,7 @@ class SectorsTableSeeder extends Seeder
             'name' => 'Greda',
             'x_position' => '4',
             'y_position' => '3',
-            'img' => '1',
+            'img' => '2',
             ]);
         $sector->save();
 
@@ -152,7 +152,7 @@ class SectorsTableSeeder extends Seeder
             'name' => 'Greda',
             'x_position' => '1',
             'y_position' => '4',
-            'img' => '1',
+            'img' => '3',
             ]);
         $sector->save();
 
@@ -161,7 +161,7 @@ class SectorsTableSeeder extends Seeder
             'name' => 'Greda',
             'x_position' => '2',
             'y_position' => '4',
-            'img' => '1',
+            'img' => '6',
             ]);
         $sector->save();
 
@@ -179,7 +179,7 @@ class SectorsTableSeeder extends Seeder
             'name' => 'Lijar',
             'x_position' => '4',
             'y_position' => '4',
-            'img' => '1',
+            'img' => '6',
             ]);
         $sector->save();
 
@@ -188,7 +188,7 @@ class SectorsTableSeeder extends Seeder
             'name' => 'Drilo',
             'x_position' => '5',
             'y_position' => '4',
-            'img' => '1',
+            'img' => '5',
             ]);
         $sector->save();
 
@@ -206,7 +206,7 @@ class SectorsTableSeeder extends Seeder
             'name' => 'Sibur',
             'x_position' => '2',
             'y_position' => '5',
-            'img' => '1',
+            'img' => '5',
             ]);
         $sector->save();
 
@@ -215,7 +215,7 @@ class SectorsTableSeeder extends Seeder
             'name' => 'Jakor',
             'x_position' => '3',
             'y_position' => '5',
-            'img' => '1',
+            'img' => '4',
             ]);
         $sector->save();
 
@@ -233,8 +233,99 @@ class SectorsTableSeeder extends Seeder
             'name' => 'Vimur',
             'x_position' => '5',
             'y_position' => '5',
+            'img' => '3',
+            ]);
+        $sector->save();
+
+        //26
+        $sector = new App\Sector([
+            'name' => 'Gohep',
+            'x_position' => '1',
+            'y_position' => '6',
+            'img' => '2',
+            ]);
+        $sector->save();
+
+        //27
+        $sector = new App\Sector([
+            'name' => 'Vimur',
+            'x_position' => '2',
+            'y_position' => '6',
+            'img' => '5',
+            ]);
+        $sector->save();
+
+        //28
+        $sector = new App\Sector([
+            'name' => 'Klida',
+            'x_position' => '3',
+            'y_position' => '6',
             'img' => '1',
             ]);
         $sector->save();
+
+        //29
+        $sector = new App\Sector([
+            'name' => 'Vimur',
+            'x_position' => '4',
+            'y_position' => '6',
+            'img' => '3',
+            ]);
+        $sector->save();
+
+        //30
+        $sector = new App\Sector([
+            'name' => 'Vimur',
+            'x_position' => '5',
+            'y_position' => '6',
+            'img' => '1',
+            ]);
+        $sector->save();
+        
+        //31
+        $sector = new App\Sector([
+            'name' => 'Argop',
+            'x_position' => '1',
+            'y_position' => '7',
+            'img' => '4',
+            ]);
+        $sector->save();
+
+        //32
+        $sector = new App\Sector([
+            'name' => 'Argop',
+            'x_position' => '2',
+            'y_position' => '7',
+            'img' => '1',
+            ]);
+        $sector->save();
+
+        //33
+        $sector = new App\Sector([
+            'name' => 'Argop',
+            'x_position' => '3',
+            'y_position' => '7',
+            'img' => '2',
+            ]);
+        $sector->save();
+
+        //34
+        $sector = new App\Sector([
+            'name' => 'Argop',
+            'x_position' => '4',
+            'y_position' => '7',
+            'img' => '1',
+            ]);
+        $sector->save();
+
+        //35
+        $sector = new App\Sector([
+            'name' => 'Argop',
+            'x_position' => '5',
+            'y_position' => '7',
+            'img' => '6',
+            ]);
+        $sector->save();
+
     }
 }

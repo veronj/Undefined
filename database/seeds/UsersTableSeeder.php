@@ -17,7 +17,7 @@ class UsersTableSeeder extends Seeder
             'name' => 'Burseig',
             'x_position' => '2',
             'y_position' => '2',
-            'email' => 'fake@email.com',
+            'email' => 'fake2@email.com',
             'password' => 'password'
             
         ]);
