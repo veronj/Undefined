@@ -12,7 +12,9 @@
 */
 
 Route::get('/', 'SectorController@index')->name('index');
-Route::get('/user', 'UserController@index')->name('user');
+Route::get('/user', 'UserController@index')->name('userView');
+
+Route::get('/move', 'UserController@move')->name('userMove');
 
 Auth::routes();
 

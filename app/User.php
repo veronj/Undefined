@@ -33,15 +33,20 @@ class User extends Authenticatable
     {
         $x = $this->x_position;
         $y = $this->y_position;
-        $nearSectors[0] = Sector::where('x_position', '=', ($x - 1))->where('y_position', '=', ($y + 1))->first();
-        $nearSectors[1] = Sector::where('x_position', '=', ($x + 0))->where('y_position', '=', ($y + 1))->first();
-        $nearSectors[2] = Sector::where('x_position', '=', ($x + 1))->where('y_position', '=', ($y + 1))->first();
-        $nearSectors[3] = Sector::where('x_position', '=', ($x - 1))->where('y_position', '=', $y)->first();
-        $nearSectors[4] = Sector::where('x_position', '=', $x)->where('y_position', '=', $y)->first();
-        $nearSectors[5] = Sector::where('x_position', '=', ($x + 1))->where('y_position', '=', $y)->first();
-        $nearSectors[6] = Sector::where('x_position', '=', ($x - 1))->where('y_position', '=', ($y - 1))->first();
-        $nearSectors[7] = Sector::where('x_position', '=', $x)->where('y_position', '=', ($y - 1))->first();
-        $nearSectors[8] = Sector::where('x_position', '=', ($x + 1))->where('y_position', '=', ($y - 1))->first();
+       
+        $nearSector[0] = Sector::where('x_position', '=', ($x - 1))->where('y_position', '=', ($y + 1))->first();
+        $nearSector[1] = Sector::where('x_position', '=', ($x + 0))->where('y_position', '=', ($y + 1))->first();
+        $nearSector[2] = Sector::where('x_position', '=', ($x + 1))->where('y_position', '=', ($y + 1))->first();
+        $nearSector[3] = Sector::where('x_position', '=', ($x - 1))->where('y_position', '=', $y)->first();
+        $nearSector[4] = Sector::where('x_position', '=', $x)->where('y_position', '=', $y)->first();
+        $nearSector[5] = Sector::where('x_position', '=', ($x + 1))->where('y_position', '=', $y)->first();
+        $nearSector[6] = Sector::where('x_position', '=', ($x - 1))->where('y_position', '=', ($y - 1))->first();
+        $nearSector[7] = Sector::where('x_position', '=', $x)->where('y_position', '=', ($y - 1))->first();
+        $nearSector[8] = Sector::where('x_position', '=', ($x + 1))->where('y_position', '=', ($y - 1))->first();
+
+        $nearSectors = collect([$nearSector[0], $nearSector[1], $nearSector[2], $nearSector[3], $nearSector[4],
+        $nearSector[5], $nearSector[6], $nearSector[7], $nearSector[8]]);
+        
         return $nearSectors;
     }
 }

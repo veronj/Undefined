@@ -36,7 +36,7 @@ class SectorsTableSeeder extends Seeder
             'name' => 'Cepak',
             'x_position' => '3',
             'y_position' => '1',
-            'img' => '1',
+            'img' => '3',
             ]);
         $sector->save();
 
@@ -72,7 +72,7 @@ class SectorsTableSeeder extends Seeder
             'name' => 'Aloha',
             'x_position' => '2',
             'y_position' => '2',
-            'img' => '1',
+            'img' => '3',
             ]);
         $sector->save();
 
@@ -90,7 +90,7 @@ class SectorsTableSeeder extends Seeder
             'name' => 'Aloha',
             'x_position' => '4',
             'y_position' => '2',
-            'img' => '1',
+            'img' => '3',
             ]);
         $sector->save();
 
@@ -108,7 +108,7 @@ class SectorsTableSeeder extends Seeder
             'name' => 'Greda',
             'x_position' => '1',
             'y_position' => '3',
-            'img' => '1',
+            'img' => '5',
             ]);
         $sector->save();
         //12
