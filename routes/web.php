@@ -12,6 +12,7 @@
 */
 
 Route::get('/', 'SectorController@index')->name('index');
+Route::get('/user', 'UserController@index')->name('user');
 
 Auth::routes();
 

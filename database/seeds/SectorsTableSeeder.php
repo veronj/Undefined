@@ -2,10 +2,17 @@
 
 use Illuminate\Database\Seeder;
 
-class ProductTableSeeder extends Seeder
+class SectorsTableSeeder extends Seeder
 {
+    /**
+     * Run the database seeds.
+     *
+     * @return void
+     */
     public function run() 
     {
+        DB::table('sectors')->delete();
+
         //1
         $sector = new App\Sector([
             'name' => 'Aloha',
@@ -20,7 +27,7 @@ class ProductTableSeeder extends Seeder
             'name' => 'Behol',
             'x_position' => '2',
             'y_position' => '1',
-            'img' => '2',
+            'img' => '5',
             ]);
         $sector->save();
         
@@ -38,7 +45,7 @@ class ProductTableSeeder extends Seeder
             'name' => 'Defar',
             'x_position' => '4',
             'y_position' => '1',
-            'img' => '1',
+            'img' => '5',
             ]);
         $sector->save();
 
@@ -56,7 +63,7 @@ class ProductTableSeeder extends Seeder
             'name' => 'Fihor',
             'x_position' => '1',
             'y_position' => '2',
-            'img' => '1',
+            'img' => '5',
             ]);
         $sector->save();
 

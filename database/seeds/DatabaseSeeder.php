@@ -2,6 +2,7 @@
 
 use Illuminate\Database\Seeder;
 
+
 class DatabaseSeeder extends Seeder
 {
     /**
@@ -11,6 +12,8 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        factory(App\Sector::class, 9)->create();
+        //factory(App\Sector::class, 9)->create();
+        $this->call(SectorsTableSeeder::class);
+        $this->call(UsersTableSeeder::class);
     }
 }

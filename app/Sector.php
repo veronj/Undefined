@@ -3,6 +3,7 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
+use App\Sector;
 
 class Sector extends Model
 {
@@ -14,15 +15,15 @@ class Sector extends Model
     {
         $x = $this->x_position;
         $y = $this->y_position;
-        $nearSectors[0] = Star::where('x_position', '=', ($x - 1))->where('y_position', '=', ($y + 1))->first();
-        $nearSectors[1] = Star::where('x_position', '=', ($x + 0))->where('y_position', '=', ($y + 1))->first();
-        $nearSectors[2] = Star::where('x_position', '=', ($x + 1))->where('y_position', '=', ($y + 1))->first();
-        $nearSectors[3] = Star::where('x_position', '=', ($x - 1))->where('y_position', '=', $y)->first();
-        $nearSectors[4] = Star::where('x_position', '=', $x)->where('y_position', '=', $y)->first();
-        $nearSectors[5] = Star::where('x_position', '=', ($x + 1))->where('y_position', '=', $y)->first();
-        $nearSectors[6] = Star::where('x_position', '=', ($x - 1))->where('y_position', '=', ($y - 1))->first();
-        $nearSectors[7] = Star::where('x_position', '=', $x)->where('y_position', '=', ($y - 1))->first();
-        $nearSectors[8] = Star::where('x_position', '=', ($x + 1))->where('y_position', '=', ($y - 1))->first();
+        $nearSectors[0] = Sector::where('x_position', '=', ($x - 1))->where('y_position', '=', ($y + 1))->first();
+        $nearSectors[1] = Sector::where('x_position', '=', ($x + 0))->where('y_position', '=', ($y + 1))->first();
+        $nearSectors[2] = Sector::where('x_position', '=', ($x + 1))->where('y_position', '=', ($y + 1))->first();
+        $nearSectors[3] = Sector::where('x_position', '=', ($x - 1))->where('y_position', '=', $y)->first();
+        $nearSectors[4] = Sector::where('x_position', '=', $x)->where('y_position', '=', $y)->first();
+        $nearSectors[5] = Sector::where('x_position', '=', ($x + 1))->where('y_position', '=', $y)->first();
+        $nearSectors[6] = Sector::where('x_position', '=', ($x - 1))->where('y_position', '=', ($y - 1))->first();
+        $nearSectors[7] = Sector::where('x_position', '=', $x)->where('y_position', '=', ($y - 1))->first();
+        $nearSectors[8] = Sector::where('x_position', '=', ($x + 1))->where('y_position', '=', ($y - 1))->first();
         return $nearSectors;
     }
 }
