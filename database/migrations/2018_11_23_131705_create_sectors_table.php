@@ -16,6 +16,8 @@ class CreateSectorsTable extends Migration
         Schema::create('sectors', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name');
+            $table->integer('x_position');
+            $table->integer('y_position');
             $table->integer('img');
             
             
