@@ -11,7 +11,7 @@
                 <div class="caption">
                 <h3>{{ $sector->name }}</h3> 
                 <h3>{{ $sector->img }}</h3>
-                <a href="{{ route('move') }}"><img src="/img/{{ $sector->img }}.png"></a>
+                <a href="{{ route('userMove', ['x_position' => $sector->x_position, 'y_position' => $sector->y_position]) }}"><img src="/img/{{ $sector->img }}.png"></a>
                 
                 </div>
             </div>

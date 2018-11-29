@@ -15,4 +15,13 @@ class UserController extends Controller
 
         return view('userView', compact('user'));
     }
+
+    public function move($x_position, $y_position)
+    {
+        $user = User::first();
+        $user->x_position = $x_position;
+        $user->y_position = $y_position;
+        $user->save();
+        return redirect()->route('userView');
+    }
 }

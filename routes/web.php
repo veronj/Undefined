@@ -14,7 +14,7 @@
 Route::get('/', 'SectorController@index')->name('index');
 Route::get('/user', 'UserController@index')->name('userView');
 
-Route::get('/move', 'UserController@move')->name('userMove');
+Route::get('/move/{x_position}/{y_position}', 'UserController@move')->name('userMove');
 
 Auth::routes();
 
