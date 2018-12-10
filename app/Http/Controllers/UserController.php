@@ -12,7 +12,7 @@ class UserController extends Controller
         
         $user = User::first();
         $user->nearSectors = $user->getNearSectors();
-       // dd($user->getNearSectors());
+        dd($user->getNearSectors());
       // dd($user);
         return view('userView', compact('user'));
     }
