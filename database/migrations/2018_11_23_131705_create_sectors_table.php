@@ -19,6 +19,8 @@ class CreateSectorsTable extends Migration
             $table->integer('x_position');
             $table->integer('y_position');
             $table->integer('img');
+            $table->integer('men');
+            $table->integer('lasers');
             
             
             $table->timestamps();

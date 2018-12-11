@@ -19,6 +19,8 @@ class SectorsTableSeeder extends Seeder
             'x_position' => '1',
             'y_position' => '1',
             'img' => '4',
+            'men' => '100',
+            'lasers' => '100'
         ]);
         $sector->save();
         
@@ -28,6 +30,8 @@ class SectorsTableSeeder extends Seeder
             'x_position' => '2',
             'y_position' => '1',
             'img' => '5',
+            'men' => '100',
+            'lasers' => '100'
             ]);
         $sector->save();
         
@@ -37,6 +41,8 @@ class SectorsTableSeeder extends Seeder
             'x_position' => '3',
             'y_position' => '1',
             'img' => '3',
+            'men' => '100',
+            'lasers' => '100'
             ]);
         $sector->save();
 
@@ -46,6 +52,8 @@ class SectorsTableSeeder extends Seeder
             'x_position' => '4',
             'y_position' => '1',
             'img' => '5',
+            'men' => '100',
+            'lasers' => '100'
             ]);
         $sector->save();
 
@@ -55,6 +63,8 @@ class SectorsTableSeeder extends Seeder
             'x_position' => '5',
             'y_position' => '1',
             'img' => '2',
+            'men' => '100',
+            'lasers' => '100'
             ]);
         $sector->save();
 
@@ -64,6 +74,8 @@ class SectorsTableSeeder extends Seeder
             'x_position' => '1',
             'y_position' => '2',
             'img' => '5',
+            'men' => '100',
+            'lasers' => '100'
             ]);
         $sector->save();
 
@@ -73,6 +85,8 @@ class SectorsTableSeeder extends Seeder
             'x_position' => '2',
             'y_position' => '2',
             'img' => '3',
+            'men' => '100',
+            'lasers' => '100'
             ]);
         $sector->save();
 
@@ -82,6 +96,8 @@ class SectorsTableSeeder extends Seeder
             'x_position' => '3',
             'y_position' => '2',
             'img' => '1',
+            'men' => '100',
+            'lasers' => '100'
             ]);
         $sector->save();
 
@@ -91,6 +107,8 @@ class SectorsTableSeeder extends Seeder
             'x_position' => '4',
             'y_position' => '2',
             'img' => '3',
+            'men' => '100',
+            'lasers' => '100'
             ]);
         $sector->save();
 
@@ -100,6 +118,8 @@ class SectorsTableSeeder extends Seeder
             'x_position' => '5',
             'y_position' => '2',
             'img' => '1',
+            'men' => '100',
+            'lasers' => '100'
             ]);
         $sector->save();
 
@@ -109,6 +129,8 @@ class SectorsTableSeeder extends Seeder
             'x_position' => '1',
             'y_position' => '3',
             'img' => '5',
+            'men' => '100',
+            'lasers' => '100'
             ]);
         $sector->save();
         //12
@@ -117,6 +139,8 @@ class SectorsTableSeeder extends Seeder
             'x_position' => '2',
             'y_position' => '3',
             'img' => '4',
+            'men' => '100',
+            'lasers' => '100'
             ]);
         $sector->save();
 
@@ -126,6 +150,8 @@ class SectorsTableSeeder extends Seeder
             'x_position' => '3',
             'y_position' => '3',
             'img' => '3',
+            'men' => '100',
+            'lasers' => '100'
             ]);
         $sector->save();
 
@@ -135,6 +161,8 @@ class SectorsTableSeeder extends Seeder
             'x_position' => '4',
             'y_position' => '3',
             'img' => '2',
+            'men' => '100',
+            'lasers' => '100'
             ]);
         $sector->save();
 
@@ -144,6 +172,8 @@ class SectorsTableSeeder extends Seeder
             'x_position' => '5',
             'y_position' => '3',
             'img' => '1',
+            'men' => '100',
+            'lasers' => '100'
             ]);
         $sector->save();
 
@@ -153,6 +183,8 @@ class SectorsTableSeeder extends Seeder
             'x_position' => '1',
             'y_position' => '4',
             'img' => '3',
+            'men' => '100',
+            'lasers' => '100'
             ]);
         $sector->save();
 
@@ -162,6 +194,8 @@ class SectorsTableSeeder extends Seeder
             'x_position' => '2',
             'y_position' => '4',
             'img' => '6',
+            'men' => '100',
+            'lasers' => '100'
             ]);
         $sector->save();
 
@@ -171,6 +205,8 @@ class SectorsTableSeeder extends Seeder
             'x_position' => '3',
             'y_position' => '4',
             'img' => '1',
+            'men' => '100',
+            'lasers' => '100'
             ]);
         $sector->save();
 
@@ -180,6 +216,8 @@ class SectorsTableSeeder extends Seeder
             'x_position' => '4',
             'y_position' => '4',
             'img' => '6',
+            'men' => '100',
+            'lasers' => '100'
             ]);
         $sector->save();
 
@@ -189,6 +227,8 @@ class SectorsTableSeeder extends Seeder
             'x_position' => '5',
             'y_position' => '4',
             'img' => '5',
+            'men' => '100',
+            'lasers' => '100'
             ]);
         $sector->save();
 
@@ -198,6 +238,8 @@ class SectorsTableSeeder extends Seeder
             'x_position' => '1',
             'y_position' => '5',
             'img' => '1',
+            'men' => '100',
+            'lasers' => '100'
             ]);
         $sector->save();
 
@@ -207,7 +249,8 @@ class SectorsTableSeeder extends Seeder
             'x_position' => '2',
             'y_position' => '5',
             'img' => '5',
-            ]);
+            'men' => '100',
+            'lasers' => '100']);
         $sector->save();
 
         //23
@@ -216,6 +259,8 @@ class SectorsTableSeeder extends Seeder
             'x_position' => '3',
             'y_position' => '5',
             'img' => '4',
+            'men' => '100',
+            'lasers' => '100'
             ]);
         $sector->save();
 
@@ -225,6 +270,8 @@ class SectorsTableSeeder extends Seeder
             'x_position' => '4',
             'y_position' => '5',
             'img' => '1',
+            'men' => '100',
+            'lasers' => '100'
             ]);
         $sector->save();
 
@@ -234,6 +281,8 @@ class SectorsTableSeeder extends Seeder
             'x_position' => '5',
             'y_position' => '5',
             'img' => '3',
+            'men' => '100',
+            'lasers' => '100'
             ]);
         $sector->save();
 
@@ -243,6 +292,8 @@ class SectorsTableSeeder extends Seeder
             'x_position' => '1',
             'y_position' => '6',
             'img' => '2',
+            'men' => '100',
+            'lasers' => '100'
             ]);
         $sector->save();
 
@@ -252,6 +303,8 @@ class SectorsTableSeeder extends Seeder
             'x_position' => '2',
             'y_position' => '6',
             'img' => '5',
+            'men' => '100',
+            'lasers' => '100'
             ]);
         $sector->save();
 
@@ -261,6 +314,8 @@ class SectorsTableSeeder extends Seeder
             'x_position' => '3',
             'y_position' => '6',
             'img' => '1',
+            'men' => '100',
+            'lasers' => '100'
             ]);
         $sector->save();
 
@@ -270,6 +325,8 @@ class SectorsTableSeeder extends Seeder
             'x_position' => '4',
             'y_position' => '6',
             'img' => '3',
+            'men' => '100',
+            'lasers' => '100'
             ]);
         $sector->save();
 
@@ -279,6 +336,8 @@ class SectorsTableSeeder extends Seeder
             'x_position' => '5',
             'y_position' => '6',
             'img' => '1',
+            'men' => '100',
+            'lasers' => '100'
             ]);
         $sector->save();
         
@@ -288,6 +347,8 @@ class SectorsTableSeeder extends Seeder
             'x_position' => '1',
             'y_position' => '7',
             'img' => '4',
+            'men' => '100',
+            'lasers' => '100'
             ]);
         $sector->save();
 
@@ -297,6 +358,8 @@ class SectorsTableSeeder extends Seeder
             'x_position' => '2',
             'y_position' => '7',
             'img' => '1',
+            'men' => '100',
+            'lasers' => '100'
             ]);
         $sector->save();
 
@@ -306,6 +369,8 @@ class SectorsTableSeeder extends Seeder
             'x_position' => '3',
             'y_position' => '7',
             'img' => '2',
+            'men' => '100',
+            'lasers' => '100'
             ]);
         $sector->save();
 
@@ -315,6 +380,8 @@ class SectorsTableSeeder extends Seeder
             'x_position' => '4',
             'y_position' => '7',
             'img' => '1',
+            'men' => '100',
+            'lasers' => '100'
             ]);
         $sector->save();
 
@@ -324,6 +391,8 @@ class SectorsTableSeeder extends Seeder
             'x_position' => '5',
             'y_position' => '7',
             'img' => '6',
+            'men' => '100',
+            'lasers' => '100'
             ]);
         $sector->save();
 

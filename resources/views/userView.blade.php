@@ -8,18 +8,19 @@
             @foreach($sectorChunk as $sector)
             <div class="col-md-4">
             <div class="thumbnail">
-                <div class="caption">
                 
                 @if($sector != null) 
-                    <h3>{{ $sector->name }}</h3> 
                     <a href="{{ route('userMove', ['x_position' => $sector->x_position, 'y_position' => $sector->y_position]) }}"><img src="/img/{{ $sector->img }}.png"></a>
+                    <div class="caption">
+                    <h3>{{ $sector->name }}</h3>
+                    Men : {{ $sector->men}} 
+                    Lasers : {{ $sector->lasers }}
                 @else
-                    <h3></h3>    
-                <a href="#"><img src="/img/void.png"></a>
+                    <a href="#"><img src="/img/void.png"></a>
+                    <div class="caption">
+                            <h3>Void</h3> 
                 @endif
-                
-                
-                </div>
+                    </div>
             </div>
             </div>
             @endforeach

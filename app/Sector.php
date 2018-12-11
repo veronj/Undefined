@@ -8,7 +8,7 @@ use App\Sector;
 class Sector extends Model
 {
     protected $fillable = [
-        'name', 'x_position', 'y_position', 'img',
+        'name', 'x_position', 'y_position', 'img', 'men', 'lasers'
     ];
 
     public function getNearSectors()
